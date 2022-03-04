@@ -9,6 +9,8 @@ public class TestinLand {
 		int n = sc.nextInt();
 		String row1 = sc.next();
 		String row2 = sc.next();
+		sc.close();
+		
 		int total = 0;
 		
 		for(int i = 0; i < n; i++) {
