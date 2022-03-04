@@ -12,7 +12,7 @@ public class TestinLand {
 		int c = 0;
 		
 		for(int i = 0; i < input.length(); i++) {
-			if(input.charAt(i) == 'I' || input.charAt(i) == 'O' || input.charAt(i) == 'S' || input.charAt(i) == 'H' || input.charAt(i) == 'Z' || input.charAt(i) == 'X' || input.charAt(i) == 'N')
+			if(String.valueOf(input.charAt(i)).matches("[IOSHZXN]"))
 				c++;
 		}
 		if(c == input.length())
