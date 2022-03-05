@@ -9,7 +9,6 @@ public class TestinLand {
 		String input = sc.nextLine() + "   ";
 		sc.close();
 		
-		
 		int happy = 0;
 		int sad = 0;
 		
@@ -21,7 +20,6 @@ public class TestinLand {
 					sad++;
 			}
 		}
-		
 		if(happy > sad)
 			System.out.println("happy");
 		else if(sad > happy)
