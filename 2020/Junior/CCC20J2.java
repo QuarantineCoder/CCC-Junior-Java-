@@ -15,7 +15,7 @@ public class TestinLand {
 		int day = 0;
 		
 		while(total <= p) {
-			day += 1;
+			day ++;
 			total += (Math.pow(r, day) * n);
 		}
 		System.out.println(day);
