@@ -3,4 +3,4 @@ Solutions I have completed for the Canadian Computing Challenge (CCC). Uploaded 
 
 Ps. I am still learning so if you know a way I can make my code more effiecent or tider let me know
 
-Contact SahilP@duck.com
+Contact me at SahilP@duck.com
