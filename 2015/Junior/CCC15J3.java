@@ -36,7 +36,6 @@ public class TestinLand {
     			
     			//Loops through the constants
         		for(int j = 0; j < constants.length(); j++ ) {
-        			
         			//Finds nearest next constant to our letter
         			if(letter.equals("z")) {
         				newWord += "z";
