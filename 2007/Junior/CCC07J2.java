@@ -38,7 +38,7 @@ public class TestinLand {
 			input = sc.next();
 		}sc.close();
 		
-		//Prints the abbreviation to TTYL
+		//Prints the abbreviation to TTYL to end program
 		System.out.println("talk to you later");
 	}
 }
