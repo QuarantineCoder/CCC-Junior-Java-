@@ -23,7 +23,7 @@ public class TestinLand {
     	//Calculates the players average
     	int playersAvg = (caseValues[0] + caseValues[1] + caseValues[2] + caseValues[3] + caseValues[4] + caseValues[5] + caseValues[6] + caseValues[7] + caseValues[8] + caseValues[9]) / (10 - n);
     	
-    	//Checks who offer is higher
+    	//Checks who offer is higher and prints deal or no deal
     	if(bankersOffer > playersAvg)
     		System.out.println("deal");
     	else System.out.println("no deal");
