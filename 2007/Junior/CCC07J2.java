@@ -6,8 +6,10 @@ public class TestinLand {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		//Takes message an stores it
 		String input = sc.next();
 		
+		//Converts abbreviation to english message until TTYL is entered
 		while(!input.contains("TTYL")) {
 			if(input.contains("CU")) 
 				System.out.println("see you");
@@ -36,6 +38,7 @@ public class TestinLand {
 			input = sc.next();
 		}sc.close();
 		
+		//Prints the abbreviation to TTYL
 		System.out.println("talk to you later");
 	}
 }
