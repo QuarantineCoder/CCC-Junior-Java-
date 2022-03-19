@@ -6,7 +6,7 @@ public class TestinLand {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		//Takes message an stores it
+		//Takes abbreviation an stores it
 		String input = sc.next();
 		
 		//Converts abbreviation to english message until TTYL is entered
